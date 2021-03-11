@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1340
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BARDSports", "BARDSports\BARDSports.csproj", "{0D70C93A-C9DD-46D7-B9DA-EE8F3AB3C00E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BARDSports.Tests", "BARDSports.Tests\BARDSports.Tests.csproj", "{0ADE068A-FE82-4E80-A361-E87060DE5E9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D70C93A-C9DD-46D7-B9DA-EE8F3AB3C00E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D70C93A-C9DD-46D7-B9DA-EE8F3AB3C00E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D70C93A-C9DD-46D7-B9DA-EE8F3AB3C00E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D70C93A-C9DD-46D7-B9DA-EE8F3AB3C00E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ADE068A-FE82-4E80-A361-E87060DE5E9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ADE068A-FE82-4E80-A361-E87060DE5E9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ADE068A-FE82-4E80-A361-E87060DE5E9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ADE068A-FE82-4E80-A361-E87060DE5E9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7FC21C6B-7600-441F-A0B9-F7F130C44928}
+	EndGlobalSection
+EndGlobal
