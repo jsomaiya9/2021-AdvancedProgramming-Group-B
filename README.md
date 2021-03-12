@@ -4,7 +4,7 @@
 # Systems Analyst / Coordinator role – Ross Parkinson/P2523431 & Anas Dalmar/P2539860
 # Developer role – Bilkis Islam/P2535707 & Dominic Grimley/P2536981
 
-Specifications
+System Specifications
 
 Create a website displaying 10 football clubs for the premier league and other infomation such as Premier League Table. Users should 
 be able to select one football club. Each football club will have a page containing information about the club and its players, which 
