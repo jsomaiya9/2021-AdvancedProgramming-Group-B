@@ -1,8 +1,8 @@
-# 2021-AdvancedProgramming-Group-B
+## 2021-AdvancedProgramming-Group-B
 # Project name - BARD Sports
 
-# Systems Analyst / Coordinator role – Ross Parkinson/P2523431 & Anas Dalmar/P2539860
-# Developer role – Bilkis Islam/P2535707 & Dominic Grimley/P2536981
+## Systems Analyst / Coordinator role – Ross Parkinson/P2523431 & Anas Dalmar/P2539860
+## Developer role – Bilkis Islam/P2535707 & Dominic Grimley/P2536981
 
 System Specifications
 
