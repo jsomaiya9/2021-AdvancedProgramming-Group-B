@@ -14,15 +14,13 @@ namespace BARDSports.Models
         public virtual int FootballClubId { get; set; }//primary key
         public virtual int LeagueId { get; set; }//foreign key
         public virtual string FootballClubName { get; set; }
-        public virtual string Goals { get; set; }
-        public virtual string Passes { get; set; }
-        public virtual string Cleansheets { get; set; }
-        public virtual string Wins { get; set; }
-        public virtual string Draws { get; set; }
-        public virtual string Lost { get; set; }
-
-        public virtual string Points { get; set; }
-
+        public virtual int Goals { get; set; }
+        public virtual int Passes { get; set; }
+        public virtual int Cleansheets { get; set; }
+        public virtual int Wins { get; set; }
+        public virtual int Draws { get; set; }
+        public virtual int Lost { get; set; }
+        public virtual int Points { get; set; }
         public virtual LeagueModel League { get; set; }
 
 

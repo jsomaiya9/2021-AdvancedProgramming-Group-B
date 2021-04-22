@@ -17,8 +17,7 @@ namespace BARDSports.Models
         public virtual string Rating { get; set; }
         public virtual DateTime Date { get; set; }
         public virtual PlayerModel Player { get; set; }
-        public virtual ApplicationUser User { get; set; }
-        //public virtual ApplicationUser ApplicationUser { get; set; }
+       
 
     }
 }

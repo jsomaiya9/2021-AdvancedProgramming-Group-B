@@ -16,10 +16,10 @@ namespace BARDSports.Models
         public virtual string Lastname { get; set; }
         public virtual DateTime DateOfBirth { get; set; }
         public virtual string Position { get; set; }
-        public virtual string Goals { get; set; }
-        public virtual string Assists { get; set; }
-        public virtual string YellowCards { get; set; }
-        public virtual string RedCards { get; set; }
+        public virtual int Goals { get; set; }
+        public virtual int Assists { get; set; }
+        public virtual int YellowCards { get; set; }
+        public virtual int RedCards { get; set; }
         public virtual FootballClubModel Football { get; set; }
 
     }

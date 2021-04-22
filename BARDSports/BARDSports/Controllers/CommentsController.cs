@@ -7,6 +7,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using BARDSports.Models;
+using Microsoft.AspNet.Identity;
 
 namespace BARDSports.Controllers
 {
@@ -40,6 +41,8 @@ namespace BARDSports.Controllers
         public ActionResult Create()
         {
             ViewBag.PlayerId = new SelectList(db.PlayerModels, "PlayerId", "Firstname");
+            
+
             return View();
         }
 
@@ -50,6 +53,8 @@ namespace BARDSports.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "CommentsId,PlayerId,Id,Rating,Date")] CommentsModel commentsModel)
         {
+            var UserId = User.Identity.GetUserId();
+            commentsModel.Id = UserId;
             if (ModelState.IsValid)
             {
                 db.CommentsModels.Add(commentsModel);

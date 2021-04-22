@@ -253,12 +253,14 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="images\arsenal.jpg" />
+    <Content Include="images\avsl.mp4" />
     <Content Include="images\chelsea.png" />
     <Content Include="images\everton.png" />
     <Content Include="images\leicester.jpg" />
     <Content Include="images\liverpool.png" />
     <Content Include="images\man city.png" />
     <Content Include="images\man un.png" />
+    <Content Include="images\twitter-fb-insta new.jpg" />
     <Content Include="images\twitter-fb-insta.jpg" />
     <Content Include="images\west ham united.png" />
     <Content Include="obj\Debug\BARDSports.csproj.FileListAbsolute.txt" />
@@ -345,6 +347,18 @@
     <Compile Include="Migrations\202104191610496_changes1.cs" />
     <Compile Include="Migrations\202104191610496_changes1.designer.cs">
       <DependentUpon>202104191610496_changes1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202104211138252_manualdatabase.cs" />
+    <Compile Include="Migrations\202104211138252_manualdatabase.designer.cs">
+      <DependentUpon>202104211138252_manualdatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202104221018437_stringToIntFootballClub.cs" />
+    <Compile Include="Migrations\202104221018437_stringToIntFootballClub.designer.cs">
+      <DependentUpon>202104221018437_stringToIntFootballClub.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202104221118136_stringTointPlayer.cs" />
+    <Compile Include="Migrations\202104221118136_stringTointPlayer.designer.cs">
+      <DependentUpon>202104221118136_stringTointPlayer.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -446,6 +460,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202104191610496_changes1.resx">
       <DependentUpon>202104191610496_changes1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104211138252_manualdatabase.resx">
+      <DependentUpon>202104211138252_manualdatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104221018437_stringToIntFootballClub.resx">
+      <DependentUpon>202104221018437_stringToIntFootballClub.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104221118136_stringTointPlayer.resx">
+      <DependentUpon>202104221118136_stringTointPlayer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="obj\Debug\BARDSports.Migrations.changes.resources" />
     <EmbeddedResource Include="obj\Debug\BARDSports.Migrations.InitialCreate.resources" />

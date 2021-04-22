@@ -439,5 +439,8 @@ D:\BARDSports\BARDSports\BARDSports\BARDSports\obj\Debug\BARDSports.Migrations.I
 D:\BARDSports\BARDSports\BARDSports\BARDSports\obj\Debug\BARDSports.Migrations.AddFootballClubFields.resources
 D:\BARDSports\BARDSports\BARDSports\BARDSports\obj\Debug\BARDSports.Migrations.changeIdToUserId.resources
 D:\BARDSports\BARDSports\BARDSports\BARDSports\obj\Debug\BARDSports.Migrations.changeUserIdToId.resources
-D:\BARDSports\BARDSports\BARDSports\BARDSports\obj\Debug\BARDSports.csprojAssemblyReference.cache
 D:\BARDSports\BARDSports\BARDSports\BARDSports\obj\Debug\BARDSports.Migrations.changes1.resources
+D:\BARDSports\BARDSports\BARDSports\BARDSports\obj\Debug\BARDSports.Migrations.manualdatabase.resources
+D:\BARDSports\BARDSports\BARDSports\BARDSports\obj\Debug\BARDSports.Migrations.stringToInt.resources
+D:\BARDSports\BARDSports\BARDSports\BARDSports\obj\Debug\BARDSports.csprojAssemblyReference.cache
+D:\BARDSports\BARDSports\BARDSports\BARDSports\obj\Debug\BARDSports.Migrations.stringTointPlayer.resources

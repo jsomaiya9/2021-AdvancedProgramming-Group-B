@@ -17,7 +17,6 @@ namespace BARDSports.Models
         
         public virtual PlayerModel Player { get; set; }
        
-        public virtual ApplicationUser User { get; set; }
       
 
     }
