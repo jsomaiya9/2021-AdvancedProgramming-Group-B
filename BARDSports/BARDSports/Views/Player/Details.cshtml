@@ -87,5 +87,6 @@
 <p>
     @Html.ActionLink("Edit", "Edit", new { id = Model.PlayerId }) |
     @Html.ActionLink("Back to List", "Index") |
-    @Html.ActionLink("Follow", "Index","PlayerFans", routeValues: new { PlayerId = Model.PlayerId }, htmlAttributes: new { id = "PlayerFans" })
+    @Html.ActionLink("Follow", "Index", "PlayerFans", routeValues: new { PlayerId = Model.PlayerId }, htmlAttributes: new { id = "PlayerFans" }) |
+    @Html.ActionLink("Comment", "Index", "Comments", routeValues: new { PlayerId = Model.PlayerId }, htmlAttributes: new { id = "Comments" })
 </p>
