@@ -52,6 +52,6 @@ namespace BARDSports.Models
 
         public System.Data.Entity.DbSet<BARDSports.Models.PlayerFansModel> PlayerFansModels { get; set; }
                 
-      // public System.Data.Entity.DbSet<BARDSports.Models.ApplicationUser>ApplicationUsers { get; set; }
+       //public System.Data.Entity.DbSet<BARDSports.Models.ApplicationUser>ApplicationUsers { get; set; }
     }
 }
