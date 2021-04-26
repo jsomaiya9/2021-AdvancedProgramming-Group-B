@@ -11,9 +11,13 @@ using Microsoft.AspNet.Identity;
 
 namespace BARDSports.Controllers
 {
-    public class CommentsController : Controller
+    //Comments is a base class and public property
+    public class CommentsController : Controller // Note: "Inheritance". This updated line is from the originally generated "CommentsController".
     {
+        //Declaring an object of type ApplicationDbContext.
+        //private data member db
         private ApplicationDbContext db = new ApplicationDbContext();
+
 
         // GET: Comments
         public ActionResult Index()

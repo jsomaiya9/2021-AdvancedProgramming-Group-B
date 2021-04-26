@@ -11,7 +11,7 @@ namespace BARDSports.Models
         [Key]
         //Encapsulation get, set methods
         public virtual int PlayerId { get; set; }//primary key
-        public virtual int FootballClubId { get; set; }
+        public virtual int FootballClubId { get; set; }//foreign key
         public virtual string Firstname { get; set; }
         public virtual string Lastname { get; set; }
         public virtual DateTime DateOfBirth { get; set; }

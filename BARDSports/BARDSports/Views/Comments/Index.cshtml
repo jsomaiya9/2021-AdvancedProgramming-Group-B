@@ -4,6 +4,8 @@
     ViewBag.Title = "Index";
 }
 
+<!--COMMENTS - INDEX PAGE -->
+
 <h2>Comments</h2>
 
 <p>
@@ -26,26 +28,27 @@
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Player.Firstname)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Id)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Rating)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Date)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.CommentsId }) |
-            @Html.ActionLink("Details", "Details", new { id=item.CommentsId }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.CommentsId })
-        </td>
-    </tr>
-}
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Player.Firstname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rating)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.CommentsId }) |
+                @Html.ActionLink("Details", "Details", new { id = item.CommentsId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.CommentsId })
+            </td>
+        </tr>
+    }
 
 </table>

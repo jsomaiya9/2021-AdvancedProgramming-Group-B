@@ -10,8 +10,11 @@ using BARDSports.Models;
 
 namespace BARDSports.Controllers
 {
-    public class LeagueController : Controller
+    //League controller is a base class and public property
+    public class LeagueController : Controller // Note: "Inheritance". This updated line is from the originally generated "LeagueController".
     {
+        //Declaring an object of type ApplicationDbContext.
+        //private data member db
         private ApplicationDbContext db = new ApplicationDbContext();
 
         // GET: League

@@ -4,11 +4,14 @@
     ViewBag.Title = "Index";
 }
 
+<!--FOOTBALL CLUB - INDEX PAGE -->
+
 <h2>Football Club</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
+
 <table class="table">
     <tr>
         <th>
@@ -41,42 +44,43 @@
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.League.LeagueName)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.FootballClubName)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Goals)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Passes)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Cleansheets)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Wins)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Draws)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Lost)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Points)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id = item.FootballClubId }) |
-            @Html.ActionLink("Details", "Details", new { id = item.FootballClubId }) |
-            @Html.ActionLink("Delete", "Delete", new { id = item.FootballClubId })|
-            @Html.ActionLink("Player", "Index", "Player", routeValues: new { id = item.FootballClubId }, htmlAttributes: new { id = item.FootballClubId })
-        </td>
-    </tr>
-}
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.League.LeagueName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FootballClubName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Goals)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Passes)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cleansheets)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Wins)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Draws)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Lost)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Points)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.FootballClubId }) |
+                @Html.ActionLink("Details", "Details", new { id = item.FootballClubId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.FootballClubId })|
+                @Html.ActionLink("Player", "Index", "Player", routeValues: new { id = item.FootballClubId }, htmlAttributes: new { id = item.FootballClubId })
+            </td>
+        </tr>
+    }
 
 </table>
