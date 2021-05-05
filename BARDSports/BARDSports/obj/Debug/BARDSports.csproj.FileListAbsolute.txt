@@ -493,7 +493,6 @@ C:\Users\dgrim\Documents\BardSports\BARDSports\BARDSports\bin\roslyn\vbc.exe.con
 C:\Users\dgrim\Documents\BardSports\BARDSports\BARDSports\bin\roslyn\vbc.rsp
 C:\Users\dgrim\Documents\BardSports\BARDSports\BARDSports\bin\roslyn\VBCSCompiler.exe
 C:\Users\dgrim\Documents\BardSports\BARDSports\BARDSports\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\dgrim\Documents\BardSports\BARDSports\BARDSports\obj\Debug\BARDSports.csprojAssemblyReference.cache
 C:\Users\dgrim\Documents\BardSports\BARDSports\BARDSports\obj\Debug\BARDSports.Migrations.InitialCreate.resources
 C:\Users\dgrim\Documents\BardSports\BARDSports\BARDSports\obj\Debug\BARDSports.Migrations.changes.resources
 C:\Users\dgrim\Documents\BardSports\BARDSports\BARDSports\obj\Debug\BARDSports.Migrations.InitialCreate1.resources
@@ -509,3 +508,5 @@ C:\Users\dgrim\Documents\BardSports\BARDSports\BARDSports\obj\Debug\BARDSports.c
 C:\Users\dgrim\Documents\BardSports\BARDSports\BARDSports\obj\Debug\BARDSports.csproj.CopyComplete
 C:\Users\dgrim\Documents\BardSports\BARDSports\BARDSports\obj\Debug\BARDSports.dll
 C:\Users\dgrim\Documents\BardSports\BARDSports\BARDSports\obj\Debug\BARDSports.pdb
+C:\Users\dgrim\Documents\BardSports\BARDSports\BARDSports\obj\Debug\BARDSports.csprojAssemblyReference.cache
+C:\Users\dgrim\Documents\BardSports\BARDSports\BARDSports\obj\Debug\BARDSports.Migrations.stringtointrating.resources

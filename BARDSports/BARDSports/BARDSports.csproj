@@ -360,6 +360,10 @@
     <Compile Include="Migrations\202104221118136_stringTointPlayer.designer.cs">
       <DependentUpon>202104221118136_stringTointPlayer.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202104280959205_stringtointrating.cs" />
+    <Compile Include="Migrations\202104280959205_stringtointrating.designer.cs">
+      <DependentUpon>202104280959205_stringtointrating.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\AdvertModel.cs" />
@@ -469,6 +473,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202104221118136_stringTointPlayer.resx">
       <DependentUpon>202104221118136_stringTointPlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104280959205_stringtointrating.resx">
+      <DependentUpon>202104280959205_stringtointrating.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="obj\Debug\BARDSports.Migrations.changes.resources" />
     <EmbeddedResource Include="obj\Debug\BARDSports.Migrations.InitialCreate.resources" />

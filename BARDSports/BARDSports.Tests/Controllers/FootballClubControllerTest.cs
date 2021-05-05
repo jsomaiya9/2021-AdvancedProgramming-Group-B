@@ -25,5 +25,19 @@ namespace BARDSports.Tests.Controllers
             //test to see that it exists           
             Assert.IsNotNull(FootballClub);
         }
+
+        //Passes
+        //[TestMethod]
+        //public void Rate_Min()
+        //{
+        //    FootballClubController footballClub = new FootballClubController();
+        //    //test data to assign to the test
+        //    Int32 passes = 0;
+        //    DateTime date = new DateTime(2021, 1, 01);
+        //    string valid = footballClub.valid(passes);
+        //    //Test
+        //    Assert.AreEqual(valid, "");
+        //}
+
     }
 }
