@@ -10,10 +10,15 @@ using BARDSports.Models;
 
 namespace BARDSports.Controllers
 {
-    public class PlayerController : Controller
+    //Player controller is a base class and public property
+    public class PlayerController : Controller // Note: "Inheritance". This updated line is from the originally generated "PlayerController".
     {
+        //Declaring an object of type ApplicationDbContext.
+        //private data member db
         private ApplicationDbContext db = new ApplicationDbContext();
-        private object mFirstname;
+
+        //private member variables
+        private string mFirstname;
         private string mLastname;
         private DateTime mDateOfBirth;
         private string mPosition;
@@ -23,18 +28,24 @@ namespace BARDSports.Controllers
         private string mRedCards;
 
         //Encapsulation (get, set methods)
-        public object Firstname {
+        //firstname public property
+        public string Firstname
+        {
+            //return the private data
             get
             {
-                //return the private data
+
+                //this line of code sends data out of the property                
                 return mFirstname;
             }
+            //set the private data
             set
-            {
-                //set the private data
+            {                
+                // this line of code allows into the property
                 mFirstname = value;
             }
         }
+        //lastname public property
         public string Lastname {
             get
             {
@@ -48,6 +59,7 @@ namespace BARDSports.Controllers
 
             }
         }
+        //dat of birth public property
         public DateTime DateOfBirth {
             get
             {
@@ -60,6 +72,7 @@ namespace BARDSports.Controllers
                 mDateOfBirth = value;
             }
         }
+        //position public property
         public string Position {
             get
             {
@@ -73,6 +86,7 @@ namespace BARDSports.Controllers
 
             }
         }
+        //goals public property
         public string Goals {
             get
             {
@@ -86,6 +100,7 @@ namespace BARDSports.Controllers
 
             }
         }
+        //assists public property
         public string Assists {
             get
             {
@@ -99,6 +114,7 @@ namespace BARDSports.Controllers
 
             }
         }
+        //yellow cards public property
         public string YellowCards {
             get
             {
@@ -112,6 +128,7 @@ namespace BARDSports.Controllers
 
             }
         }
+        //red cards public property
         public string RedCards {
             get
             {
@@ -196,6 +213,11 @@ namespace BARDSports.Controllers
             }
             ViewBag.FootballClubId = new SelectList(db.FootballClubModels, "FootballClubId", "FootballClubName", playerModel.FootballClubId);
             return View(playerModel);
+        }
+
+        public static int valid(string firstname, string lastname, DateTime dateOfBirth, string position, int goals, int assists, int yellowCards, int redCards)
+        {
+            throw new NotImplementedException();
         }
 
         // POST: Player/Edit/5

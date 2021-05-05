@@ -253,9 +253,11 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="images\arsenal.jpg" />
-    <Content Include="images\avsl.mp4" />
+    <Content Include="images\bt advert.jpg" />
     <Content Include="images\chelsea.png" />
+    <Content Include="images\cricket advert.jpg" />
     <Content Include="images\everton.png" />
+    <Content Include="images\formula1 advert.jpg" />
     <Content Include="images\leicester.jpg" />
     <Content Include="images\liverpool.png" />
     <Content Include="images\man city.png" />

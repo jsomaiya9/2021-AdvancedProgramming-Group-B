@@ -8,9 +8,13 @@ using System.Web.Mvc;
 
 namespace BARDSports.Controllers
 {
-    public class PlayerFansController : Controller
+    //Player fans controller is a base class and public property
+    public class PlayerFansController : Controller // Note: "Inheritance". This updated line is from the originally generated "PlayerFansController".
     {
+        //Declaring an object of type ApplicationDbContext.
+        //private data member db
         private ApplicationDbContext db = new ApplicationDbContext();
+
         // GET: PlayerFans
         public ActionResult Index(int PlayerId)
         {

@@ -12,6 +12,7 @@ namespace BARDSports.Controllers
 {
     public class AdvertController : Controller
     {
+        //Declaring an object of type ApplicationDbContext.
         private ApplicationDbContext db = new ApplicationDbContext();
        //get set method
         public string Description { get; set; }

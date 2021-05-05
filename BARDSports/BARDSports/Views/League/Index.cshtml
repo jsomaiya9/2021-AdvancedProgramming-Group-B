@@ -4,6 +4,8 @@
     ViewBag.Title = "Index";
 }
 
+<!--LEAGUE - INDEX PAGE -->
+
 <h2>League</h2>
 
 <p>
@@ -23,23 +25,24 @@
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.LeagueName)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Description)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Seasons)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.LeagueId }) |
-            @Html.ActionLink("Details", "Details", new { id=item.LeagueId }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.LeagueId })
-        </td>
-    </tr>
-}
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.LeagueName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Seasons)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.LeagueId }) |
+                @Html.ActionLink("Details", "Details", new { id = item.LeagueId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.LeagueId })
+            </td>
+        </tr>
+    }
 
 </table>

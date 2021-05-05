@@ -4,6 +4,8 @@
     ViewBag.Title = "Index";
 }
 
+<!--PLAYER - INDEX PAGE -->
+
 <h2>Player</h2>
 
 <p>
@@ -41,41 +43,42 @@
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Football.FootballClubName)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Firstname)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Lastname)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.DateOfBirth)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Position)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Goals)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Assists)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.YellowCards)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.RedCards)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.PlayerId }) |
-            @Html.ActionLink("Details", "Details", new { id=item.PlayerId }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.PlayerId })
-        </td>
-    </tr>
-}
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Football.FootballClubName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Firstname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Lastname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateOfBirth)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Position)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Goals)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Assists)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.YellowCards)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RedCards)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.PlayerId }) |
+                @Html.ActionLink("Details", "Details", new { id = item.PlayerId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.PlayerId })
+            </td>
+        </tr>
+    }
 
 </table>

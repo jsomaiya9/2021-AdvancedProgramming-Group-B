@@ -6,35 +6,37 @@ using System.Data.Entity;
 
 namespace BARDSports.Models
 {
-    public class BARDSportsDataInitialiser : DropCreateDatabaseAlways<ApplicationDbContext>
+    //BARDSports Data Initialiser is a base class and public property
+    public class BARDSportsDataInitialiser : DropCreateDatabaseAlways<ApplicationDbContext> // Note: "Inheritance". This updated line is from the originally generated "BARDSportsDataInitialiser".
     {
+        //create seed data
         protected override void Seed(ApplicationDbContext context)
         {
-            //create league 
+            //create premiere league 
             LeagueModel leagueModel1 = new LeagueModel();
             leagueModel1.LeagueId = 1;
             leagueModel1.LeagueName = "Premier League";
             context.LeagueModels.Add(leagueModel1);
 
-            //create league 
+            //create championship league 
             LeagueModel leagueModel2 = new LeagueModel();
             leagueModel2.LeagueId = 2;
             leagueModel2.LeagueName = "Championship League";
             context.LeagueModels.Add(leagueModel2);
 
-            //create league 
+            //create league one
             LeagueModel leagueModel3 = new LeagueModel();
             leagueModel3.LeagueId = 3;
             leagueModel3.LeagueName = "League One";
             context.LeagueModels.Add(leagueModel3);
 
-            //create league 
+            //create league two
             LeagueModel leagueModel4 = new LeagueModel();
             leagueModel4.LeagueId = 4;
             leagueModel4.LeagueName = "League Two";
             context.LeagueModels.Add(leagueModel4);
 
-            //create football club
+            //create Arsenal football club
             FootballClubModel footballClubModel1 = new FootballClubModel();            
             footballClubModel1.FootballClubId = 1;
             footballClubModel1.LeagueId = 1;
@@ -48,7 +50,7 @@ namespace BARDSports.Models
             footballClubModel1.Points = 46;
             context.FootballClubModels.Add(footballClubModel1);
 
-            //create football club
+            //create Chelsea football club
             FootballClubModel footballClubModel2 = new FootballClubModel();
             footballClubModel2.FootballClubId = 2;
             footballClubModel2.LeagueId = 1;
@@ -62,7 +64,7 @@ namespace BARDSports.Models
             footballClubModel2.Points = 55;
             context.FootballClubModels.Add(footballClubModel2);
 
-            //create football club
+            //create Leicester City football club
             FootballClubModel footballClubModel3 = new FootballClubModel();
             footballClubModel3.FootballClubId = 3;
             footballClubModel3.LeagueId = 1;
@@ -76,7 +78,7 @@ namespace BARDSports.Models
             footballClubModel3.Points = 56;
             context.FootballClubModels.Add(footballClubModel3);
 
-            //create football club
+            //create Liverpool football club
             FootballClubModel footballClubModel4 = new FootballClubModel();
             footballClubModel4.FootballClubId = 4;
             footballClubModel4.LeagueId = 1;
@@ -90,7 +92,7 @@ namespace BARDSports.Models
             footballClubModel4.Points = 53;
             context.FootballClubModels.Add(footballClubModel4);
 
-            //create football club
+            //create Manchester City football club
             FootballClubModel footballClubModel5 = new FootballClubModel();
             footballClubModel5.FootballClubId = 5;
             footballClubModel5.LeagueId = 1;
@@ -104,7 +106,7 @@ namespace BARDSports.Models
             footballClubModel5.Points = 77;
             context.FootballClubModels.Add(footballClubModel5);
 
-            //create football club
+            //create Leeds United football club
             FootballClubModel footballClubModel6 = new FootballClubModel();
             footballClubModel6.FootballClubId = 6;
             footballClubModel6.LeagueId = 1;
@@ -118,7 +120,7 @@ namespace BARDSports.Models
             footballClubModel6.Points = 46;
             context.FootballClubModels.Add(footballClubModel6);
 
-            //create football club
+            //create Everton football club
             FootballClubModel footballClubModel7 = new FootballClubModel();
             footballClubModel7.FootballClubId = 7;
             footballClubModel7.LeagueId = 1;
@@ -132,7 +134,7 @@ namespace BARDSports.Models
             footballClubModel7.Points = 49;
             context.FootballClubModels.Add(footballClubModel7);
 
-            //create football club
+            //create Manchester football club
             FootballClubModel footballClubModel8 = new FootballClubModel();
             footballClubModel8.FootballClubId = 8;
             footballClubModel8.LeagueId = 1;
@@ -146,7 +148,7 @@ namespace BARDSports.Models
             footballClubModel8.Points = 66;
             context.FootballClubModels.Add(footballClubModel8);
 
-            //create football club
+            //create Tottenham Hotspur football club
             FootballClubModel footballClubModel9 = new FootballClubModel();
             footballClubModel9.FootballClubId = 9;
             footballClubModel9.LeagueId = 1;
@@ -160,7 +162,7 @@ namespace BARDSports.Models
             footballClubModel9.Points = 53;
             context.FootballClubModels.Add(footballClubModel9);
 
-            //create football club
+            //create West Ham United football club
             FootballClubModel footballClubModel10 = new FootballClubModel();
             footballClubModel10.FootballClubId = 10;
             footballClubModel10.LeagueId = 1;
