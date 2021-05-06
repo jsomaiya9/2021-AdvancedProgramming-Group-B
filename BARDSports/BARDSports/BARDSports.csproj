@@ -365,6 +365,10 @@
     <Compile Include="Migrations\202104280959205_stringtointrating.designer.cs">
       <DependentUpon>202104280959205_stringtointrating.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202105060905493_removedadvert.cs" />
+    <Compile Include="Migrations\202105060905493_removedadvert.designer.cs">
+      <DependentUpon>202105060905493_removedadvert.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\BARDSportsDataInitialiser.cs" />
@@ -471,6 +475,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202104280959205_stringtointrating.resx">
       <DependentUpon>202104280959205_stringtointrating.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202105060905493_removedadvert.resx">
+      <DependentUpon>202105060905493_removedadvert.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="obj\Debug\BARDSports.Migrations.changes.resources" />
     <EmbeddedResource Include="obj\Debug\BARDSports.Migrations.InitialCreate.resources" />
