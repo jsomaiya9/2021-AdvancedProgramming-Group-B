@@ -41,7 +41,7 @@ namespace BARDSports.Models
             return new ApplicationDbContext();
         }
    
-        public System.Data.Entity.DbSet<BARDSports.Models.AdvertModel> AdvertModels { get; set; }
+       // public System.Data.Entity.DbSet<BARDSports.Models.AdvertModel> AdvertModels { get; set; }
 
         public System.Data.Entity.DbSet<BARDSports.Models.LeagueModel> LeagueModels { get; set; }
 

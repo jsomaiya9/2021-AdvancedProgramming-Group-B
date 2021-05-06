@@ -311,7 +311,6 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
-    <Compile Include="Controllers\AdvertController.cs" />
     <Compile Include="Controllers\CommentsController.cs" />
     <Compile Include="Controllers\FootballClubController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -366,9 +365,12 @@
     <Compile Include="Migrations\202104280959205_stringtointrating.designer.cs">
       <DependentUpon>202104280959205_stringtointrating.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202105060905493_removedadvert.cs" />
+    <Compile Include="Migrations\202105060905493_removedadvert.designer.cs">
+      <DependentUpon>202105060905493_removedadvert.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\AdvertModel.cs" />
     <Compile Include="Models\BARDSportsDataInitialiser.cs" />
     <Compile Include="Models\CommentsModel.cs" />
     <Compile Include="Models\FootballClubModel.cs" />
@@ -388,11 +390,6 @@
     <None Include="packages.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Advert\Create.cshtml" />
-    <Content Include="Views\Advert\Delete.cshtml" />
-    <Content Include="Views\Advert\Details.cshtml" />
-    <Content Include="Views\Advert\Edit.cshtml" />
-    <Content Include="Views\Advert\Index.cshtml" />
     <Content Include="Views\League\Create.cshtml" />
     <Content Include="Views\League\Delete.cshtml" />
     <Content Include="Views\League\Details.cshtml" />
@@ -478,6 +475,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202104280959205_stringtointrating.resx">
       <DependentUpon>202104280959205_stringtointrating.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202105060905493_removedadvert.resx">
+      <DependentUpon>202105060905493_removedadvert.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="obj\Debug\BARDSports.Migrations.changes.resources" />
     <EmbeddedResource Include="obj\Debug\BARDSports.Migrations.InitialCreate.resources" />

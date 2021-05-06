@@ -215,10 +215,7 @@ namespace BARDSports.Controllers
             return View(playerModel);
         }
 
-        public static int valid(string firstname, string lastname, DateTime dateOfBirth, string position, int goals, int assists, int yellowCards, int redCards)
-        {
-            throw new NotImplementedException();
-        }
+       
 
         // POST: Player/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
