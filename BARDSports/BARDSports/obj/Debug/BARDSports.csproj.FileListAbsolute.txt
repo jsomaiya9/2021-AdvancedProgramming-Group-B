@@ -577,3 +577,4 @@ D:\BARDSports\BARDSports\BARDSports\obj\Debug\BARDSports.csproj.CopyComplete
 D:\BARDSports\BARDSports\BARDSports\obj\Debug\BARDSports.dll
 D:\BARDSports\BARDSports\BARDSports\obj\Debug\BARDSports.pdb
 D:\BARDSports\BARDSports\BARDSports\obj\Debug\BARDSports.Migrations.changesrecommended.resources
+C:\Users\dgrim\Documents\BardSports\BARDSports\BARDSports\obj\Debug\BARDSports.Migrations.changesrecommended.resources
