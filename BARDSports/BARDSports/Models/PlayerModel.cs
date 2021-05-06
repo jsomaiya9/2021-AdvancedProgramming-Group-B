@@ -22,5 +22,71 @@ namespace BARDSports.Models
         public virtual int RedCards { get; set; }
         public virtual FootballClubModel Football { get; set; }
 
+        public static string valid(string Firstname, string Lastname, DateTime DateOfBirth, string Position, int Goals, int Assists, int YellowCards, int RedCards)
+        {
+            //var to store the error message
+            string errorMsg = "";
+
+            //check the min length of the firstname
+            if (Firstname.Length < 2)
+            {
+                //set the error messsage
+                errorMsg = "Firstname is too short";
+            }
+
+            if (Firstname.Length > 20)
+            {
+                //set the error messsage
+                errorMsg = "Firstname is too long";
+            }
+
+            if (Lastname.Length < 2)
+            {
+                //set the error messsage
+                errorMsg = "Lastname is too short";
+            }
+
+            if (Lastname.Length > 50)
+            {
+                //set the error messsage
+                errorMsg = "Lastname is too long";
+            }
+
+
+            if (DateOfBirth < DateTime.Now.AddYears(-16))
+            {
+                //set the error messsage
+                errorMsg = "too old";
+            }
+            if (DateOfBirth > DateTime.Now.AddYears(+100))
+            {
+                //set the error messsage
+                errorMsg = "too young";
+            }
+
+            if (Goals < 0)
+            {
+                //set the error messsage
+                errorMsg = "Cannot have negative goals";
+            }
+            if (Assists < 0)
+            {
+                //set the error messsage
+                errorMsg = "Cannot have negative assists";
+            }
+            if (YellowCards < 0)
+            {
+                //set the error messsage
+                errorMsg = "Cannot have negative yellow cards";
+            }
+            if (RedCards < 0)
+            {
+                //set the error messsage
+                errorMsg = "Cannot have negative red cards";
+            }
+
+            return errorMsg;
+        }
+
     }
 }
